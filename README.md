@@ -10,6 +10,8 @@ This theme uses [SASS][], [Compass][] and [SUSY][] for styling. You can fetch th
 bundle install
 ```
 
+You can then compile the SASS with `compass compile` or compile it on change with `compass watch`.
+
 [trillek-site]: http://trillek.org/
 [0x10c]: http://0x10c.com/
 [sub-reddit]: http://www.reddit.com/r/trillek
