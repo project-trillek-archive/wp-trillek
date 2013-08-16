@@ -3,7 +3,7 @@
 /**
  * Cleans up the WordPress header. By default it outputs a lot of rubbish.
  */
-function clean_wp_head_output()
+function trillek_clean_wp_head_output()
 {
 	if (!is_admin())
 	{
@@ -23,4 +23,4 @@ function clean_wp_head_output()
 	}
 }
 
-add_action('init', 'clean_wp_head_output');
+add_action('init', 'trillek_clean_wp_head_output');
