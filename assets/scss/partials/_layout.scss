@@ -1,5 +1,7 @@
 .container {
 	@include container;
+	margin-top: $container-vertical-margin;
+	margin-bottom: $container-vertical-margin;
 }
 
 .header, .footer {
@@ -15,6 +17,14 @@
 
 	.splash {
 		@include span-columns($header-splash-columns, $total-columns);
+		position: relative;
+	}
+
+	.splash-background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -10;
 	}
 
 	.navigation {
