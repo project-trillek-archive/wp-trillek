@@ -15,3 +15,5 @@
 				</div>
 				<div class='navigation'></div>
 			</div>
+
+			<div class='content'>
