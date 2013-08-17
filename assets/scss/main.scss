@@ -4,7 +4,8 @@
 @import 'susy';
 @import 'normalize';
 
-@import 'partials/reset';
+@include normalize;
+
 @import 'partials/grids';
 @import 'partials/layout';
 @import 'partials/buttons';
