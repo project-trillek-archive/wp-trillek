@@ -24,7 +24,7 @@
 				@include transition($header-navigation-transition);
 			}
 
-			&:hover {
+			&.current-menu-item, &:hover {
 				background-color: $header-navigation-item--hover-background-color;
 
 				.triangle {
