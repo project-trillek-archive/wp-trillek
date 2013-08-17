@@ -52,6 +52,6 @@
 
 	.content-text {
 		@include span-columns($content-text-columns omega, $total-columns);
-		@include pad($content-text-padding-columns);
+		@include pad($content-text-padding-columns, $content-text-padding-columns);
 	}
 }
