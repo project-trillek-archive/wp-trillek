@@ -30,8 +30,12 @@
 	.navigation {
 		@include span-columns($header-navigation-columns omega, $total-columns);
 		@include bleed($grid-padding, 'left');
-		margin-top: 0;
-		margin-bottom: 0;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
 
 		li {
 			padding-top: $header-navigation-item-padding;

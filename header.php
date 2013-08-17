@@ -15,15 +15,16 @@
 					<img class='splash-background' src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/space.jpg'>
 				</div>
 
-				<?php
-				wp_nav_menu(array(
-					'theme_location' => 'trillek_main_menu',
-					'menu_class' => 'navigation',
-					'link_after' => '<div class=\'triangle\'></div>',
-					'container' => false,
-					'fallback_cb' => false,
-				));
-				?>
+				<div class='navigation'>
+					<?php
+					wp_nav_menu(array(
+						'theme_location' => 'trillek_main_menu',
+						'link_after' => '<div class=\'triangle\'></div>',
+						'container' => false,
+						'fallback_cb' => false,
+					));
+					?>
+				</div>
 			</div>
 
 			<div class='content'>

@@ -1,6 +1,8 @@
 .header {
 	.navigation {
-		list-style: none;
+		ul {
+			list-style: none;
+		}
 
 		li {
 			@include transition-property(background);
