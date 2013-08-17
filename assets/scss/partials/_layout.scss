@@ -1,0 +1,7 @@
+.container {
+	@include container;
+}
+
+.header, .footer {
+	clear: both;
+}
