@@ -23,6 +23,7 @@
 						'container' => false,
 						'fallback_cb' => false,
 					));
+					echo get_search_form();
 					?>
 				</div>
 			</div>

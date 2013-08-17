@@ -30,6 +30,7 @@
 	.navigation {
 		@include span-columns($header-navigation-columns omega, $total-columns);
 		@include bleed($grid-padding, 'left');
+		position: relative;
 
 		ul {
 			margin: 0;
@@ -46,6 +47,13 @@
 			@include bleed($grid-padding, 'left');
 			width: 100%;
 			display: block;
+		}
+
+		.search-form {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
 		}
 	}
 }
