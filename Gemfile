@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
 gem 'sass'
 gem 'compass'
+gem 'compass-normalize-plugin'
 gem 'susy'

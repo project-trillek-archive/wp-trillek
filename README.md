@@ -4,15 +4,19 @@ This is the theme for [trillek.org][trillek-site], an open source game inspired 
 
 ## Dependencies
 
-This theme uses [SASS][], [Compass][] and [SUSY][] for styling. You can fetch these ruby gems with this command.
+This theme uses [SASS][], [Compass][], [Normalize.css][] and [SUSY][] for styling. You can fetch these ruby gems with this command.
 
 ```bash
 bundle install
 ```
 
-You can then compile the SASS with `compass compile assets` or compile it on change with `compass watch assets`.
+You can then compile the SASS manually with `compass compile assets` or compile it on change with `compass watch assets`.
 
 [trillek-site]: http://trillek.org/
 [0x10c]: http://0x10c.com/
 [sub-reddit]: http://www.reddit.com/r/trillek
 [forum]: http://forum.trillek.org/
+[SASS]: http://sass-lang.com/
+[Compass]: http://compass-style.org/
+[Normalize.css]: http://necolas.github.io/normalize.css/
+[SUSY]: http://susy.oddbird.net/
