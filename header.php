@@ -11,7 +11,8 @@
 		<div class='container'>
 			<div class='header'>
 				<div class='splash'>
-					<img class='splash-background' src='http://placehold.it/624x300'>
+					<a href='/' class='splash-logo'><h1><?php bloginfo('name'); ?></h1></a>
+					<img class='splash-background' src='<?php echo get_stylesheet_directory_uri(); ?>/assets/images/space.jpg'>
 				</div>
 
 				<?php

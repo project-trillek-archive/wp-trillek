@@ -2,4 +2,18 @@
 	.splash {
 		@include box-shadow($header-splash-shadow);
 	}
+
+	.splash-logo {
+		$logo-width: image-width($logo-image);
+		$logo-height: image-height($logo-image);
+		$top-margin: ($header-height / 2) - ($logo-height / 2);
+
+		@include background(image-url($logo-image));
+		height: 0;
+		width: $logo-width;
+		padding-top: $logo-height;
+		display: block;
+		overflow: hidden;
+		margin: $top-margin auto 0 auto;
+	}
 }
