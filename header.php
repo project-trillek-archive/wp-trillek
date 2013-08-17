@@ -9,4 +9,7 @@
 
 	<body>
 		<div class='container'>
-			<div class='header'></div>
+			<div class='header'>
+				<div class='splash'></div>
+				<div class='navigation'></div>
+			</div>

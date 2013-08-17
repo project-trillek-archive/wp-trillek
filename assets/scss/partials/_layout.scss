@@ -5,3 +5,13 @@
 .header, .footer {
 	clear: both;
 }
+
+.header {
+	.splash {
+		@include span-columns($header-splash-columns, $total-columns);
+	}
+
+	.navigation {
+		@include span-columns(($total-columns - $header-splash-columns) omega, $total-columns);
+	}
+}
