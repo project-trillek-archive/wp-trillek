@@ -7,11 +7,18 @@
 }
 
 .header {
+	height: $header-height;
+
+	.splash, .navigation {
+		height: 100%;
+	}
+
 	.splash {
 		@include span-columns($header-splash-columns, $total-columns);
 	}
 
 	.navigation {
 		@include span-columns(($total-columns - $header-splash-columns) omega, $total-columns);
+		@include bleed($grid-padding, 'left');
 	}
 }

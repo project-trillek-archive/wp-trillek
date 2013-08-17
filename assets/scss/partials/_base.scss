@@ -5,4 +5,9 @@ $column-width: 4em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
 
+$header-height: 300px;
 $header-splash-columns: 8;
+$header-splash-shadow-blur: 30px;
+$header-splash-shadow-spread: 0;
+$header-splash-shadow-color: rgba(0, 0, 0, 0.5);
+$header-navigation-background: image-url('pixel-weave.png');

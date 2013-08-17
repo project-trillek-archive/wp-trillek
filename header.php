@@ -10,6 +10,8 @@
 	<body>
 		<div class='container'>
 			<div class='header'>
-				<div class='splash'></div>
+				<div class='splash'>
+					<img class='splash-background' src='http://placehold.it/624x300'>
+				</div>
 				<div class='navigation'></div>
 			</div>
