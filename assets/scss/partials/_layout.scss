@@ -32,3 +32,13 @@
 		@include bleed($grid-padding, 'left');
 	}
 }
+
+.content {
+	float: left;
+	width: 100%;
+
+	.content-text {
+		@include span-columns($content-text-columns omega, $total-columns);
+		@include pad($total-columns - $content-text-columns / 2);
+	}
+}

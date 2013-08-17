@@ -1,0 +1,13 @@
+body {
+	@include background-image($page-background);
+}
+
+.header {
+	.navigation {
+		@include background-image($header-navigation-background);
+	}
+}
+
+.content {
+	background-color: $content-background-color;
+}
