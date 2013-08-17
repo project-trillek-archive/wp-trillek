@@ -13,7 +13,16 @@
 				<div class='splash'>
 					<img class='splash-background' src='http://placehold.it/624x300'>
 				</div>
-				<div class='navigation'></div>
+
+				<?php
+				wp_nav_menu(array(
+					'theme_location' => 'trillek_main_menu',
+					'menu_class' => 'navigation',
+					'link_after' => '<div class=\'triangle\'></div>',
+					'container' => false,
+					'fallback_cb' => false,
+				));
+				?>
 			</div>
 
 			<div class='content'>

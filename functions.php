@@ -1,5 +1,8 @@
 <?php
 
+register_nav_menu('trillek_main_menu', 'Trillek Main Menu');
+add_action('init', 'trillek_clean_wp_head_output');
+
 /**
  * Cleans up the WordPress header. By default it outputs a lot of rubbish.
  */
@@ -22,5 +25,3 @@ function trillek_clean_wp_head_output()
 		wp_deregister_script('l10n');
 	}
 }
-
-add_action('init', 'trillek_clean_wp_head_output');

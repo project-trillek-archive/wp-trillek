@@ -28,8 +28,21 @@
 	}
 
 	.navigation {
-		@include span-columns(($total-columns - $header-splash-columns) omega, $total-columns);
+		@include span-columns($header-navigation-columns omega, $total-columns);
 		@include bleed($grid-padding, 'left');
+		margin-top: 0;
+		margin-bottom: 0;
+
+		li {
+			padding-top: $header-navigation-item-padding;
+			padding-bottom: $header-navigation-item-padding;
+		}
+
+		li, a {
+			@include bleed($grid-padding, 'left');
+			width: 100%;
+			display: block;
+		}
 	}
 }
 
@@ -39,6 +52,6 @@
 
 	.content-text {
 		@include span-columns($content-text-columns omega, $total-columns);
-		@include pad($total-columns - $content-text-columns / 2);
+		@include pad($content-text-padding-columns);
 	}
 }

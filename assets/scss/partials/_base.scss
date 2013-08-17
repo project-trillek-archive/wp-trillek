@@ -11,10 +11,21 @@ $container-vertical-margin: 30px;
 
 $header-height: 300px;
 $header-splash-columns: 8;
-$header-splash-shadow-blur: 30px;
-$header-splash-shadow-spread: 0;
-$header-splash-shadow-color: rgba(0, 0, 0, 0.5);
+$header-splash-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5);
+
+$header-navigation-columns: $total-columns - $header-splash-columns;
 $header-navigation-background: image-url('pixel-weave.png');
+$header-navigation-item-background-color: #CCCCCC;
+$header-navigation-item--hover-background-color: #AAAAAA;
+$header-navigation-item-padding: 5px;
+$header-navigation-item-borders: 1px solid #000000;
+$header-navigation-item-color: #888888;
+$header-navigation-item-font-size: 18px;
+$header-navigation-triangle-size: 16px;
+$header-navigation-triangle-color: #66CCCC;
+$header-navigation-triangle-resting-multiplier: 1.25;
+$header-navigation-transition: 400ms ease;
 
 $content-background-color: #FFFFFF;
 $content-text-columns: 10;
+$content-text-padding-columns: $total-columns - $content-text-columns / 2;

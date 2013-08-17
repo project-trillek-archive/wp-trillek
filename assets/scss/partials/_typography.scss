@@ -1,0 +1,9 @@
+.header {
+	.navigation {
+		a {
+			text-decoration: none;
+			color: $header-navigation-item-color;
+			font-size: $header-navigation-item-font-size;
+		}
+	}
+}

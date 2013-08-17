@@ -1,0 +1,37 @@
+.header {
+	.navigation {
+		list-style: none;
+
+		li {
+			@include transition-property(background);
+			background-color: $header-navigation-item-background-color;
+			border-bottom: $header-navigation-item-borders;
+			overflow: hidden;
+			position: relative;
+
+			.triangle {
+				$initial-position: -($header-navigation-triangle-size / 2);
+				@include transition-property(position);
+				width: $header-navigation-triangle-size;
+				height: $header-navigation-triangle-size;
+				position: absolute;
+				right: $initial-position;
+				top: $initial-position;
+				background-color: $header-navigation-triangle-color;
+			}
+
+			&, .triangle {
+				@include transition($header-navigation-transition);
+			}
+
+			&:hover {
+				background-color: $header-navigation-item--hover-background-color;
+
+				.triangle {
+					right: 0;
+					top: 0;
+				}
+			}
+		}
+	}
+}

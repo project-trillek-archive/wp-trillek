@@ -1,5 +1,5 @@
 .header {
 	.splash {
-		@include box-shadow(inset 0 0 $header-splash-shadow-blur $header-splash-shadow-spread $header-splash-shadow-color);
+		@include box-shadow($header-splash-shadow);
 	}
 }
