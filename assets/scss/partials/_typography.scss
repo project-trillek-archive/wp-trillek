@@ -34,4 +34,17 @@
 			color: $post-link-hover-color;
 		}
 	}
+
+	blockquote {
+		padding: $post-blockquote-padding;
+		background-color: $post-blockquote-background;
+		@include border-radius($post-blockquote-border-radius);
+
+		cite {
+			display: block;
+			border-top: $post-blockquote-border;
+			margin-top: $post-blockquote-border-margin;
+			padding-top: $post-blockquote-border-margin;
+		}
+	}
 }
