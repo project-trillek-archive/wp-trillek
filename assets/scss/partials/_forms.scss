@@ -5,3 +5,19 @@
 	background: $text-input-background;
 	border-bottom: $text-input-border;
 }
+
+.button, .button-container a {
+	@include transition($clickable-transition);
+	@include transition-property(background);
+	@include border-radius($button-border-radius);
+
+	display: inline-block;
+	padding: $button-padding;
+	background-color: $clickable-color;
+	color: $clickable-text-color;
+	text-decoration: none;
+
+	&:hover {
+		background-color: $clickable-hover-color;
+	}
+}

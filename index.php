@@ -10,8 +10,8 @@
 <?php endif; ?>
 
 <div class='pagination'>
-	<div class='previous-page'><?php previous_posts_link(); ?></div>
-	<div class='next-page'><?php next_posts_link(); ?></div>
+	<div class='previous-page button-container'><?php previous_posts_link(); ?></div>
+	<div class='next-page button-container'><?php next_posts_link(); ?></div>
 </div>
 
 <?php get_footer(); ?>

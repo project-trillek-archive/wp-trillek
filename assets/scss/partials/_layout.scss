@@ -5,7 +5,7 @@
 }
 
 .header, .footer, .content, .pagination {
-	clear: both;
+	@include clearfix;
 }
 
 .header {
@@ -70,6 +70,7 @@
 
 .pagination {
 	$pagination-columns: $content-text-columns / 2;
+	margin: $pagination-vertical-margin 0;
 
 	.previous-page {
 		@include span-columns($pagination-columns, $total-columns);

@@ -8,12 +8,21 @@ $grid-padding: $gutter-width;
 $page-background: image-url('office.png');
 
 $container-vertical-margin: 30px;
+$pagination-vertical-margin: 10px;
 
 $header-height: 300px;
 $header-splash-columns: 8;
 $header-splash-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5);
 
 $logo-image: 'trillek-logo.png';
+
+$clickable-color: #7A5B7B;
+$clickable-hover-color: #4E1E50;
+$clickable-text-color: #FFFFFF;
+$clickable-transition: 400ms ease;
+
+$button-padding: 7px;
+$button-border-radius: 3px;
 
 $header-navigation-columns: $total-columns - $header-splash-columns;
 $header-navigation-background: image-url('pixel-weave.png');
