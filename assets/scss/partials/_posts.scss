@@ -1,5 +1,9 @@
 .post-head {
 	background: $post-head-background;
+
+	.sticky & {
+		background: $post-head-sticky-background;
+	}
 }
 
 .content-text {
