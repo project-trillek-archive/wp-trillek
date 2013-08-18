@@ -14,7 +14,13 @@
 	</div>
 
 	<div class='content-text'>
-		<?php the_content(); ?>
+		<div class='post-content'>
+			<?php the_content(); ?>
+		</div>
+
+		<div class='post-comments'>
+			<?php comments_template(); ?>
+		</div>
 	</div>
 </div>
 

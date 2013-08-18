@@ -39,6 +39,7 @@ $text-input-background: #FFFFFF;
 $text-input-border: 1px solid #333333;
 
 $post-head-background: #6E6280;
+$post-border: 3px solid $post-head-background;
 $post-head-sticky-background: #4E1E50;
 $post-head-top-margin: 40px;
 $post-head-vertical-padding: 10px;
@@ -53,6 +54,8 @@ $post-blockquote-border-margin: 5px;
 $post-code-background: #F2F2F2;
 $post-code-padding: 5px;
 $post-code-border-radius: 5px;
+
+$comments-margin: 40px;
 
 $table-border: 1px solid #000000;
 $table-cell-padding: 4px;
