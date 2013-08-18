@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 
+<div class='content-text filtered-post-list'>
+	<?php if (is_category()): ?>
+	<h1>Category: <?php single_cat_title(); ?></h1>
+	<?php elseif (is_tag()): ?>
+	<h1>Tag: <?php single_tag_title(); ?></h1>
+	<?php elseif (is_search()): ?>
+	<h1>Search: <?php echo get_search_query(); ?></h1>
+	<?php endif; ?>
+</div>
+
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
 <div <?php post_class(); ?>>
