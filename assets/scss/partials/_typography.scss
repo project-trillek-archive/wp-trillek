@@ -54,3 +54,9 @@
 		@include border-radius($post-code-border-radius);
 	}
 }
+
+.pagination {
+	a, a:hover {
+		color: $pagination-color;
+	}
+}

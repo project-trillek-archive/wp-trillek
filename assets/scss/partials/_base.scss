@@ -8,7 +8,8 @@ $grid-padding: $gutter-width;
 $page-background: image-url('office.png');
 
 $container-vertical-margin: 30px;
-$pagination-vertical-margin: 10px;
+$pagination-vertical-margin: 40px;
+$pagination-color: #FFFFFF;
 
 $header-height: 300px;
 $header-splash-columns: 8;
@@ -52,10 +53,14 @@ $post-blockquote-border-radius: 5px;
 $post-blockquote-border: 1px dotted #6B772C;
 $post-blockquote-border-margin: 5px;
 $post-code-background: #F2F2F2;
-$post-code-padding: 5px;
+$post-code-padding: 2px;
 $post-code-border-radius: 5px;
 $post-bottom-padding-margin: 20px;
 
 $table-border: 1px solid #000000;
 $table-cell-padding: 4px;
 $table-odd-row-background: #F2F2F2;
+
+$footer-vertical-padding: 20px;
+$footer-vertical-margin: 10px;
+$footer-border: 1px solid #000000;
