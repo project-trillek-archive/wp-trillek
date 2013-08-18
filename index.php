@@ -18,6 +18,14 @@
 			<?php the_content(); ?>
 		</div>
 
+		<div class='post-categories'>
+			<p>Categories: <?php the_category(', '); ?></p>
+		</div>
+
+		<div class='post-tags'>
+			<p><?php the_tags(); ?></p>
+		</div>
+
 		<div class='post-comments'>
 			<?php comments_template(); ?>
 		</div>

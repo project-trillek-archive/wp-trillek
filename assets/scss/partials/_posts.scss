@@ -8,6 +8,8 @@
 
 .post-content {
 	border-bottom: $post-border;
+	margin-bottom: $post-bottom-padding-margin;
+	padding-bottom: $post-bottom-padding-margin;
 }
 
 .content-text {
