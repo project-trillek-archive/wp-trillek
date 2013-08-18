@@ -47,4 +47,10 @@
 			padding-top: $post-blockquote-border-margin;
 		}
 	}
+
+	pre, code {
+		background-color: $post-code-background;
+		padding: $post-code-padding;
+		@include border-radius($post-code-border-radius);
+	}
 }
