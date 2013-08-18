@@ -61,11 +61,11 @@
 .content {
 	float: left;
 	width: 100%;
+}
 
-	.content-text {
-		@include span-columns($content-text-columns omega, $total-columns);
-		@include pad($content-text-padding-columns, $content-text-padding-columns);
-	}
+.content-text, .post-head {
+	@include span-columns($content-text-columns omega, $total-columns);
+	@include pad($content-text-padding-columns, $content-text-padding-columns);
 }
 
 .pagination {
@@ -80,4 +80,8 @@
 	.next-page {
 		@include span-columns($pagination-columns omega, $total-columns);
 	}
+}
+
+.post-head {
+	margin-top: $post-head-top-margin;
 }

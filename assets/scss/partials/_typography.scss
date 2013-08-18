@@ -7,3 +7,10 @@
 		}
 	}
 }
+
+.post-head {
+	h2 a {
+		text-decoration: none;
+		color: $post-title-color;
+	}
+}
