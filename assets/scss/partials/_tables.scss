@@ -3,15 +3,12 @@ table {
 	border-bottom: 0;
 	border-right: 0;
 
-	tr {
-		border-bottom: $table-border;
-		
-		&.odd {
-			background: $table-odd-row-background;
-		}
+	.odd {
+		background: $table-odd-row-background;
 	}
 
 	td, th {
+		border-bottom: $table-border;
 		border-right: $table-border;
 		padding: $table-cell-padding;
 	}
