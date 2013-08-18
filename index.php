@@ -9,7 +9,7 @@
 		</div>
 
 		<div class='post-meta'>
-			<p>Posted by <?php the_author(); ?> at <?php the_date() ?></p>
+			<p>Posted by <?php the_author(); ?> on <?php the_date() ?></p>
 			<p><?php the_category(); ?></p>
 		</div>
 
