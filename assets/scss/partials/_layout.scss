@@ -4,7 +4,7 @@
 	margin-bottom: $container-vertical-margin;
 }
 
-.header, .footer, .content {
+.header, .footer, .content, .pagination {
 	clear: both;
 }
 
@@ -65,5 +65,18 @@
 	.content-text {
 		@include span-columns($content-text-columns omega, $total-columns);
 		@include pad($content-text-padding-columns, $content-text-padding-columns);
+	}
+}
+
+.pagination {
+	$pagination-columns: $content-text-columns / 2;
+
+	.previous-page {
+		@include span-columns($pagination-columns, $total-columns);
+		text-align: right;
+	}
+
+	.next-page {
+		@include span-columns($pagination-columns omega, $total-columns);
 	}
 }
