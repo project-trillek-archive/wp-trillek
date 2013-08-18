@@ -5,15 +5,15 @@
 		}
 
 		li {
-			@include transition($header-navigation-transition);
+			@include transition($clickable-transition);
 			@include transition-property(background);
-			background-color: $header-navigation-item-background-color;
+			background-color: $clickable-color;
 			border-bottom: $header-navigation-item-borders;
 			overflow: hidden;
 			position: relative;
 
 			&.current-menu-item, &:hover {
-				background-color: $header-navigation-item-hover-background-color;
+				background-color: $clickable-hover-color;
 
 				.triangle {
 					right: 0;
