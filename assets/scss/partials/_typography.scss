@@ -9,8 +9,20 @@
 }
 
 .post-head {
-	h2 a {
-		text-decoration: none;
-		color: $post-title-color;
+	color: $post-head-color;
+
+	h2 {
+		margin: 0;
+
+		a {
+			text-decoration: none;
+			color: $post-head-color;
+		}
+	}
+
+	.post-meta {
+		p {
+			margin: 0;
+		}
 	}
 }

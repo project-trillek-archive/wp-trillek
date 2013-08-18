@@ -40,4 +40,7 @@ $text-input-border: 1px solid #333333;
 
 $post-head-background: #6E6280;
 $post-head-top-margin: 40px;
-$post-title-color: #FFFFFF;
+$post-head-vertical-padding: 10px;
+$post-head-color: #FFFFFF;
+$post-title-columns: 5;
+$post-meta-columns: $content-text-columns - $post-title-columns;
