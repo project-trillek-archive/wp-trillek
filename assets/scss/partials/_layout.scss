@@ -88,14 +88,8 @@
 	padding-bottom: $post-head-vertical-padding;
 
 	.post-title {
-		@include span-columns($post-title-columns, $content-text-columns);
 	}
 
 	.post-meta {
-		@include span-columns($post-meta-columns omega, $content-text-columns);
-	}
-
-	.post-tags {
-		@include span-columns($post-title-columns, $content-text-columns);
 	}
 }

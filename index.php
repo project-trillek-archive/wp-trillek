@@ -9,12 +9,7 @@
 		</div>
 
 		<div class='post-meta'>
-			<p>Posted by <?php the_author(); ?> on <?php the_date() ?></p>
-			<p><?php the_category(); ?></p>
-		</div>
-
-		<div class='post-tags'>
-			<p><?php the_tags(); ?></p>
+			<p>Posted by <?php the_author(); ?> on <?php the_date() ?> at <?php the_time(); ?></p>
 		</div>
 	</div>
 
