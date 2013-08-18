@@ -15,7 +15,6 @@
 		margin: 0;
 
 		a {
-			text-decoration: none;
 			color: $post-head-color;
 		}
 	}
@@ -23,6 +22,16 @@
 	.post-meta {
 		p {
 			margin: 0;
+		}
+	}
+}
+
+.content-text {
+	a {
+		color: $post-link-color;
+
+		&:hover {
+			color: $post-link-hover-color;
 		}
 	}
 }
