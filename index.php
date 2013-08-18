@@ -18,11 +18,8 @@
 			<?php the_content(); ?>
 		</div>
 
-		<div class='post-categories'>
+		<div class='post-taxonomy'>
 			<p>Categories: <?php the_category(', '); ?></p>
-		</div>
-
-		<div class='post-tags'>
 			<p><?php the_tags(); ?></p>
 		</div>
 
