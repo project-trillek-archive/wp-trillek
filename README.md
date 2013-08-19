@@ -1,3 +1,9 @@
+# On hold
+
+This theme may not get used now. We are probably going to use a static site for trillek.org and stick WordPress on blog.trillek.org. This will use an excellent tried and tested theme for now.
+
+It will make the writers, readers and me a lot happier. It's definitely for the best.
+
 # Trillek
 
 This is the theme for [trillek.org][trillek-site], an open source game inspired by Notch's [0x10^c][0x10c]. You can find more information in the [sub-reddit][] and [forum][].
